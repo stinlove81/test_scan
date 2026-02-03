@@ -25,4 +25,4 @@ jobs:
         env:
           # 시크릿 변수 설정 (기존 저장소에서 가져오셔야 함)
           FIREBASE_KEY: ${{ secrets.FIREBASE_KEY }}
-        run: python your_script_name.py # 파이썬 파일명으로 수정하세요!
+        run: python scan_mtpl.py # 파이썬 파일명으로 수정하세요!
